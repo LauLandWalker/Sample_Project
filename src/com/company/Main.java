@@ -6,5 +6,15 @@ public class Main {
 
         BookService bs = new BookService(new IsbnGenerator());
         System.out.println(bs.createBook("LOTR", 10.00, "Fantasy"));
+        /*
+        * removed item
+        * */
+
+        for (int i = 0; i < 10; i++) {
+            System.out.println(i);
+        }
+
+
+
     }
 }
